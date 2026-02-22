@@ -120,7 +120,7 @@ body {
 
 .brands-logo {
     display: flex;     
-    gap: 120px;              
+    gap: 100px;              
     justify-content: center; 
     align-items: center;
     padding: 40px 8%;      
@@ -129,4 +129,62 @@ body {
 .brands-logo img {
     width: 60px;           
     height: auto;                         
+}
+
+/* heading-manage section start here ..... */
+
+.heading-manage{
+    margin-top: 25px;
+    box-shadow: 1px 1px 5px rgb(104, 95, 95);
+     margin-bottom: 20px;
+}
+
+.manage-top{
+     padding-top: 20px;
+}
+
+.manage-top h2{
+     text-align: center; 
+     padding: 0 20px;
+      
+}
+.manage-top p{
+     text-align: center; 
+     margin-top: 12px;
+     font-size: 12px;
+}
+/* second-manages start here  */
+.second-manages{
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ padding: 5px 30px;
+ margin-top: 25px;
+
+}
+
+.membership-section {
+
+    padding-bottom: 20px;
+}
+
+.membership-section img{
+    width: 50px;
+}
+
+.membership-section h2{
+    margin-top: 10px;
+}
+
+.membership-section{
+    align-items: center;
+    text-align: center;
+}
+
+
+.membership-section p{
+    align-items: center;
+    text-align: center;
+    padding: 0 80px;
+    margin-top: 8px;
 }
