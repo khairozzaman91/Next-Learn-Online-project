@@ -188,3 +188,91 @@ body {
     padding: 0 80px;
     margin-top: 8px;
 }
+
+
+/* learn section start here-- */
+
+.learn-section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+    padding: o 200px;
+}
+
+.log img{
+    width: 400px;
+    height: 80%;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.learn-details{
+    margin-top: -50px;
+    margin-left: 10px;
+}
+
+.learn-details h3{
+    line-height: 23px;
+    
+}
+.learn-details p{
+    
+    padding-top: 15px;
+    padding-right: 80px;
+ 
+
+}
+
+.learn-details button{
+    margin-top: 20px;
+    background-color: green;
+    border: none;
+    padding: 10px;
+    color: #fff;
+}
+
+/* business-section start here  */
+
+.business-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 50px 0;
+}
+
+.business-start h2{
+    text-align: left;
+    letter-spacing: 1px;
+    margin-top: -50px; 
+}
+
+.business-start span{
+    color: green;
+}
+.business-start p{
+   
+    padding-top: 8px;
+    font-size: 12px;
+}
+
+
+/* Right Side Grid */
+.business-end{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px 80px;
+}
+
+/* Card Layout */
+
+.card img{
+    width: 80px;
+    color:green;
+}
+.card{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
